@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.spec.js --timeout 30000",
-    "test-html": "mocha test/*.spec.js --timeout 30000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
+    "test": "mocha specs/*.spec.js --timeout 30000",
+    "test-html": "mocha specs/*.spec.js --timeout 30000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
   },
   "keywords": [],
   "author": "",
